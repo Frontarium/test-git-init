@@ -1,0 +1,38 @@
+Наименование веток
+
+Хорошее имя ветки должно коротко описывать суть задачи,
+чтобы без чтения кода было понятно, зачем она создана.
+
+🔹 Общие правила
+
+Используй kebab-case (feature/add-login-page)
+Не используй пробелы и заглавные буквы
+Начинай с префикса, указывающего тип ветки
+Добавляй краткое описание задачи
+
+Основные типы веток
+Префикс	Назначение	Примеры
+feature/	Новая функциональность	feature/add-auth, feature/user-profile, feature/payments-system
+fix/	Исправление бага	fix/login-error, fix/typo-in-header, fix/payment-calc
+hotfix/	Срочное исправление на проде	hotfix/critical-bug, hotfix/fix-refund
+refactor/	Рефакторинг без изменения логики	refactor/components-structure, refactor/user-service
+test/	Добавление или правка тестов	test/unit-login, test/e2e-payments
+docs/	Документация, README, инструкции	docs/update-readme, docs/add-api-description
+chore/	Технические задачи (обновления, конфиги)	chore/update-deps, chore/cleanup, chore/docker-setup
+
+feature/add-user-registration
+fix/fix-email-validation
+refactor/optimize-api-calls
+docs/add-git-guide
+chore/update-env-config
+
+<тип>: <краткое описание>
+[опционально — подробное описание изменений]
+
+
+feat: add login form component
+fix: correct payment total calculation
+refactor: split user controller into smaller services
+docs: add guide for git branching
+style: apply eslint autofix rules
+chore: bump react version to 18.3
